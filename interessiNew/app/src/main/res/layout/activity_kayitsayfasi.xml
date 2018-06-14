@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="-2dp"
+        android:layout_height="-2dp"
+        android:id="@+id/mainface"
+        android:src="@drawable/wall14"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/AdLabel"
+        android:text="Ad:"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:layout_marginTop="160dp"
+        android:layout_marginStart="25dp"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/SoyadLabel"
+        android:text="Soyad:"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:layout_below="@+id/AdLabel"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/KullaniciAdiLabel"
+        android:text="Kullanıcı Adı:"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:layout_below="@+id/SoyadLabel"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/MailLabel"
+        android:text="E-posta:"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:layout_below="@+id/KullaniciAdiLabel"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/SifreLabel"
+        android:text="Şifre:"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:layout_below="@+id/MailLabel"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Sifre2Label"
+        android:text="Şifre (Tekrar):"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:layout_below="@+id/SifreLabel"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/KayitButton"
+        android:text="Kayıt Ol !"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textColor="@android:color/black"
+        android:background="@drawable/button_design"
+        android:layout_below="@+id/Sifre2Label"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/AdText"
+        android:textSize="20dp"
+        android:textColor="@android:color/black"
+        android:layout_marginLeft="175dp"
+        android:ems="7"
+        android:layout_alignBaseline="@+id/AdLabel"
+        android:layout_alignBottom="@+id/AdLabel"
+        android:background="@drawable/frame1"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/SoyadText"
+        android:textSize="20dp"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/AdText"
+        android:layout_marginLeft="175dp"
+        android:ems="7"
+        android:layout_alignBaseline="@+id/SoyadLabel"
+        android:layout_alignBottom="@id/SoyadLabel"
+        android:background="@drawable/frame1"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/KullaniciAdiText"
+        android:textSize="20dp"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/SoyadText"
+        android:layout_marginLeft="175dp"
+        android:ems="7"
+        android:layout_alignBaseline="@+id/KullaniciAdiLabel"
+        android:layout_alignBottom="@+id/KullaniciAdiLabel"
+        android:background="@drawable/frame1"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:id="@+id/MailText"
+        android:textSize="20dp"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/KullaniciAdiText"
+        android:layout_marginLeft="175dp"
+        android:ems="7"
+        android:layout_alignBaseline="@+id/MailLabel"
+        android:layout_alignBottom="@+id/MailLabel"
+        android:background="@drawable/frame1"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:id="@+id/SifreText"
+        android:textSize="20dp"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/MailText"
+        android:layout_marginLeft="175dp"
+        android:ems="7"
+        android:layout_alignBaseline="@+id/SifreLabel"
+        android:layout_alignBottom="@+id/SifreLabel"
+        android:background="@drawable/frame1"/>
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:id="@+id/Sifre2Text"
+        android:textSize="20dp"
+        android:textColor="@android:color/black"
+        android:layout_below="@id/SifreText"
+        android:layout_marginLeft="175dp"
+        android:ems="7"
+        android:layout_alignBaseline="@+id/Sifre2Label"
+        android:layout_alignBottom="@+id/Sifre2Label"
+        android:background="@drawable/frame1"/>
+
+</RelativeLayout>

@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "957843953311",
+    "firebase_url": "https://firedeneme-5e397.firebaseio.com",
+    "project_id": "firedeneme-5e397",
+    "storage_bucket": "firedeneme-5e397.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:957843953311:android:b50ec00a08626136",
+        "android_client_info": {
+          "package_name": "com.example.birusksterk.firedeneme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "957843953311-fpfbfe9d985iq8p3t9c10m0j7h12es41.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.birusksterk.firedeneme",
+            "certificate_hash": "f4a30538eda323c2e4460b8ff53d3487ce59a9d3"
+          }
+        },
+        {
+          "client_id": "957843953311-ut54aumcdlpomng4ibcjk5889fpmoelf.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "957843953311-ut54aumcdlpomng4ibcjk5889fpmoelf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChPAnZJOaufhZVrj2aUhJrtyIZvq2VhP4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "957843953311-ut54aumcdlpomng4ibcjk5889fpmoelf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:957843953311:android:277dc93451718643",
+        "android_client_info": {
+          "package_name": "com.mobilhanem.firebasechatandroidapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "957843953311-5j8fr5eevs3v0t8e6s1rd1kbqm4h07sl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mobilhanem.firebasechatandroidapp",
+            "certificate_hash": "f4a30538eda323c2e4460b8ff53d3487ce59a9d3"
+          }
+        },
+        {
+          "client_id": "957843953311-ut54aumcdlpomng4ibcjk5889fpmoelf.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "957843953311-ut54aumcdlpomng4ibcjk5889fpmoelf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChPAnZJOaufhZVrj2aUhJrtyIZvq2VhP4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "957843953311-ut54aumcdlpomng4ibcjk5889fpmoelf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

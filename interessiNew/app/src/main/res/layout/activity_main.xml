@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.birusksterk.interessinew.MainActivity">
+
+    <ImageView
+        android:layout_width="-2dp"
+        android:layout_height="-2dp"
+        android:id="@+id/mainface"
+        android:src="@drawable/wall14"
+        android:layout_alignParentTop="true" />
+
+    <Button
+        android:text="Üye Girişi"
+        android:id="@+id/giris_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="232dp"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textColor="@android:color/black"
+        android:background="@drawable/button_design"
+        />
+
+    <Button
+        android:text="Hakkında"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textColor="@android:color/black"
+        android:id="@+id/hakkinda_button"
+        android:background="@drawable/button_design"
+        android:layout_below="@+id/kayit_button"
+        />
+
+    <Button
+        android:text="Kayıt Ol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="15dp"
+        android:id="@+id/kayit_button"
+        android:textColor="@android:color/black"
+        android:background="@drawable/button_design"
+        android:layout_below="@+id/giris_button"
+        android:layout_alignStart="@+id/hakkinda_button"
+        />
+
+
+</RelativeLayout>

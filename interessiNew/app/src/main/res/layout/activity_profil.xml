@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="-2dp"
+        android:layout_height="-2dp"
+        android:id="@+id/mainface"
+        android:src="@drawable/wall14"
+        android:layout_alignParentTop="true" />
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/BilgiButton"
+        android:text="Bilgilerimi Getir."
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textColor="@android:color/black"
+        android:background="@drawable/button_design"
+        android:layout_below="@+id/Sifre2Label"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="250dp"
+        android:id="@+id/name"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="300dp"
+        android:id="@+id/Sname"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="350dp"
+        android:id="@+id/Nikname"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="400dp"
+        android:id="@+id/Mailname"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="450dp"
+        android:id="@+id/Pname"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/gir"
+        android:hint="Adınızı Giriniz"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="100dp"/>
+
+
+
+
+
+</RelativeLayout>

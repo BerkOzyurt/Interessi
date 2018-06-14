@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="-2dp"
+        android:layout_height="-2dp"
+        android:id="@+id/mainface"
+        android:src="@drawable/wall14"
+        android:layout_alignParentTop="true" />
+
+    <ImageButton
+        android:id="@+id/twitter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="230dp"
+        android:background="@null"
+        android:onClick="tweet"
+        android:src="@drawable/tw" />
+
+    <ImageButton
+        android:id="@+id/instagram"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="40dp"
+        android:background="@null"
+        android:onClick="insta"
+        android:src="@drawable/ins" />
+
+    <ImageButton
+        android:id="@+id/website"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="40dp"
+        android:background="@null"
+        android:onClick="web"
+        android:src="@drawable/fc" />
+
+    <ImageButton
+        android:id="@+id/notte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="230dp"
+        android:background="@null"
+        android:onClick="notte"
+        android:src="@drawable/ntcd" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="'Interessi' uygulaması www.nottecode.com Yapımıdır"
+        android:textSize="25dp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:gravity="center"/>
+
+
+
+
+
+
+</RelativeLayout>

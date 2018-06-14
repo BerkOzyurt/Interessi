@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="-2dp"
+        android:layout_height="-2dp"
+        android:id="@+id/mainface"
+        android:src="@drawable/wall14"
+        android:layout_alignParentTop="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Adroid"
+        android:id="@+id/android"
+        android:textSize="25dp"
+        android:textAllCaps="false"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/button_design"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Java"
+        android:id="@+id/java"
+        android:textSize="25dp"
+        android:textAllCaps="false"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="220dp"
+        android:background="@drawable/button_design"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Python"
+        android:id="@+id/python"
+        android:textSize="25dp"
+        android:textAllCaps="false"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="290dp"
+        android:background="@drawable/button_design"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Arduino"
+        android:id="@+id/arduino"
+        android:textSize="25dp"
+        android:textAllCaps="false"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="360dp"
+        android:background="@drawable/button_design"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SQL"
+        android:id="@+id/sql"
+        android:textSize="25dp"
+        android:textAllCaps="false"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="430dp"
+        android:background="@drawable/button_design"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"/>
+
+
+
+
+
+
+</RelativeLayout>
